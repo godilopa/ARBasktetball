@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4fa3f67c2a02fb4882defc5403ed0ad, type: 3}
+  m_Name: BasketClips
+  m_EditorClassIdentifier: 
+  audioBankName: BasketClips
+  soundsToPlay:
+  - audioClip: {fileID: 8300000, guid: 7c20630114f0a1f45805faa037766c9d, type: 3}
+    soundType: 1
+    audioName: Throw
+    volume: 1
+  - audioClip: {fileID: 8300000, guid: cb85354afb2b56845a1af8e8121629fb, type: 3}
+    soundType: 1
+    audioName: Swish
+    volume: 1
+  - audioClip: {fileID: 8300000, guid: 0c52dddb1aacea74cbcf5898249b9620, type: 3}
+    soundType: 1
+    audioName: Bounce
+    volume: 1
+  - audioClip: {fileID: 8300000, guid: 73ff396f6b065f74f858240c3a9fc773, type: 3}
+    soundType: 1
+    audioName: Blackboard
+    volume: 1
+  - audioClip: {fileID: 8300000, guid: 0a98efe66667c4348bcee7e69931890d, type: 3}
+    soundType: 1
+    audioName: Hoop
+    volume: 1
+  - audioClip: {fileID: 8300000, guid: 852bcb4a9c1b3eb4e9cfb27cdd92367b, type: 3}
+    soundType: 1
+    audioName: Claps
+    volume: 1
+  levels:
+  - BasketScene
+  playMusicMethod: 0

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e9060c77a4019d409a90a751dc70eda, type: 3}
+  m_Name: AudioSourcePool
+  m_EditorClassIdentifier: 
+  pools:
+  - prefab: {fileID: 1331555899086158, guid: 26c3ffdb48b23af4aa7e560674a26804, type: 3}
+    id: AudioSource
+    count: 5
+  defaultBufferAmount: 3
